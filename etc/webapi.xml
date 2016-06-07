@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+	<!-- Example: curl http://127.0.0.1/index.php/rest/V1/aftership/trackings/2015-08-12T12:23:23/2015-08-13T6:32:02 -->
+	<route url="/V1/aftership/trackings/:from/:to/:max" method="GET">
+		<service class="AfterShip\Tracking\Api\TrackingsInterface" method="retrieve"/>
+		<resources>
+			<resource ref="Magento_Sales::sales"/>
+		</resources>
+	</route>
+</routes>
