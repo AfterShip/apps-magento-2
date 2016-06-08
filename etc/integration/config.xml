@@ -2,7 +2,7 @@
 <integrations>
 	<integration name="AfterShip">
 		<email></email>
-		<endpoint_url>http://40153ff7.ngrok.io</endpoint_url>
-		<identity_link_url>http://40153ff7.ngrok.io</identity_link_url>
+		<endpoint_url>https://secure.aftership.com/apps/magento-2/callback_response</endpoint_url>
+		<identity_link_url>https://secure.aftership.com/apps/magento-2</identity_link_url>
 	</integration>
 </integrations>
