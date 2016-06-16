@@ -10,8 +10,7 @@
 	"require": {
 		"php": ">=5.5.0",
 		"magento/magento-composer-installer": "*",
-		"magento/framework": "2.0.0",
-		"magento/module-integration": "2.0.0"
+		"magento/framework": "2.0.0"
 	},
 	"autoload": {
 		"files": [ "registration.php" ],

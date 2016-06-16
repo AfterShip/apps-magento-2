@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<integrations>
-	<integration name="AfterShip">
-		<resources>
-			<resource name="Magento_Sales::sales" />
-		</resources>
-	</integration>
-</integrations>

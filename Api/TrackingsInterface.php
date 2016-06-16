@@ -8,10 +8,11 @@ interface TrackingsInterface
 	* Return the sum of the two numbers.
 	*
 	* @api
+	* @param int $store
 	* @param int $from
 	* @param int $to
 	* @param int $max
 	* @return \Magento\Framework\Controller\Result\Json
 	*/
-	public function retrieve($from, $to, $max);
+	public function retrieve($store, $from, $to, $max);
 }
