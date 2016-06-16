@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<integrations>
-	<integration name="AfterShip">
-		<email></email>
-		<endpoint_url>https://secure.aftership.com/apps/magento-2/callback</endpoint_url>
-		<identity_link_url>https://secure.aftership.com/apps/magento-2/login</identity_link_url>
-	</integration>
-</integrations>
